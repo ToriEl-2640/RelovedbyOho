@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Top Flaps of Cardboard Box -->
+    <path
+        android:fillColor="#EAD8C3"
+        android:strokeColor="#5A443B"
+        android:strokeWidth="1.8"
+        android:strokeLineJoin="round"
+        android:pathData="M24,6 L42,15 L24,24 L6,15 Z" />
+    <!-- Left Box Side -->
+    <path
+        android:fillColor="#DFC9B2"
+        android:strokeColor="#5A443B"
+        android:strokeWidth="1.8"
+        android:strokeLineJoin="round"
+        android:pathData="M6,15 L24,24 L24,40 L6,31 Z" />
+    <!-- Right Box Side -->
+    <path
+        android:fillColor="#CDB49B"
+        android:strokeColor="#5A443B"
+        android:strokeWidth="1.8"
+        android:strokeLineJoin="round"
+        android:pathData="M24,24 L42,15 L42,31 L24,40 Z" />
+    <!-- Eco Tape Strip across top -->
+    <path
+        android:strokeColor="#82987A"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M15,10.5 L33,19.5" />
+    <!-- OHO Brand Stamp on front side -->
+    <path
+        android:strokeColor="#D36235"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M15,26 L11,31 L19,31 Z" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "OHO",
+  "description": "OHO: Pre-loved. Re-styled. Re-loved. AI-powered thrift fashion marketplace to buy, sell, swap and discover.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

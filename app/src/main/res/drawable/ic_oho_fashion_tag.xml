@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Tag String -->
+    <path
+        android:strokeColor="#82987A"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M24,4 C20,8 18,12 21,15" />
+    <!-- Tag Body (isometric angled tag) -->
+    <path
+        android:fillColor="#F7EFE4"
+        android:strokeColor="#2C2927"
+        android:strokeWidth="2"
+        android:strokeLineJoin="round"
+        android:pathData="M16,16 L26,16 L38,28 L28,38 L16,26 Z" />
+    <!-- Eyelet Hole -->
+    <path
+        android:fillColor="#D36235"
+        android:pathData="M21,19 C22.1,19 23,19.9 23,21 C23,22.1 22.1,23 21,23 C19.9,23 19,22.1 19,21 C19,19.9 19.9,19 21,19 Z" />
+    <!-- Verified Hanger on Tag -->
+    <path
+        android:strokeColor="#D36235"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M27,27 L23,32 L31,32 Z" />
+</vector>

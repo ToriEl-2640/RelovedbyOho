@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Outer circle container -->
+    <path
+        android:fillColor="#D36235"
+        android:pathData="M24,4 C35.046,4 44,12.954 44,24 C44,35.046 35.046,44 24,44 C12.954,44 4,35.046 4,24 C4,12.954 12.954,4 24,4 Z" />
+    
+    <!-- Hanger Hook (white outline) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M24,19 C24.5,14 29,13 28,9.5 C27,7 23.5,7 23,9" />
+    
+    <!-- Hanger Triangle Body (white outline) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M24,19 L11,31 L37,31 Z" />
+        
+    <!-- Horizontal Crossbar notch -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M16,31 L32,31" />
+</vector>
